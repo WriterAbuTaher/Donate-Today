@@ -1,0 +1,303 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* top section */
+
+.top-section {
+  margin-bottom: 100px;
+}
+
+.top-section img {
+  width: 100%;
+}
+
+.top-content {
+  position: absolute;
+  top: 80px;
+  margin-left: 8%;
+}
+
+.top-content h1 {
+  font-size: 50px;
+  color: #e91e63;
+}
+
+.top-content p {
+  color: gray;
+}
+
+.donate-button {
+  margin-top: 60px;
+}
+
+.donate-button a {
+  text-decoration: none;
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 18px;
+  font-size: 22px;
+  border-radius: 10px;
+}
+
+/* donate today */
+
+.donate-today {
+  margin-bottom: 100px;
+}
+
+.donate-content {
+  text-align: center;
+}
+
+.donate-content h1 {
+  font-weight: bold;
+  color: #e91e63;
+  font-size: 40px;
+}
+
+.donate-content p {
+  color: gray;
+}
+
+.donate-amount {
+  display: flex;
+  justify-content: center;
+}
+
+.donate-amount h1 {
+  font-weight: bold;
+  margin: 30px 50px;
+  background-color: rgb(241, 241, 241);
+  color: gray;
+  padding: 35px 25px;
+  border-radius: 10px;
+}
+
+#one-thousand {
+  border: 2px solid #e91e63;
+  color: #e91e63;
+}
+
+.input-amount {
+  margin-top: 30px;
+}
+
+.input-amount input {
+  font-size: 20px;
+  padding: 20px 100px;
+  margin-left: 35%;
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.amount-button {
+  margin-top: 30px;
+}
+
+.amount-button a {
+  margin-left: 45%;
+  text-decoration: none;
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+/* our donate plan */
+
+.donate-plan {
+  margin-top: 200px;
+}
+
+.plan-content {
+  text-align: center;
+}
+
+.plan-content h1 {
+  font-size: 40px;
+  color: #e91e63;
+}
+
+.plan-content p {
+  color: grey;
+}
+
+.plan-parts {
+  margin: 60px 80px;
+  display: flex;
+}
+
+.card-part {
+  margin: 0 20px;
+  padding: 30px 40px;
+  border-radius: 8px;
+}
+
+.card-part h1 {
+  color: #e91e63;
+}
+
+.card-part p {
+  color: gray;
+}
+
+#food-part {
+  background-color: bisque;
+}
+
+#shelter-part {
+  background-color: linen;
+}
+
+#education-part {
+  background-color: lavenderblush;
+}
+
+/* middle section */
+
+.middle-section {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+/* depend area */
+
+.depend-area {
+  display: flex;
+}
+
+.depend-content {
+  margin-top: 150px;
+  margin-left: 5%;
+}
+
+.depend-content h1 {
+  font-size: 40px;
+  color: #e91e63;
+}
+
+.depend-content p {
+  color: gray;
+}
+
+.depend-content a {
+  text-decoration: none;
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.depend-image {
+  margin-right: 5%;
+}
+
+.depend-image img {
+  width: 100%;
+}
+
+/* survive area */
+
+.survive-area {
+  display: flex;
+  margin-top: 150px;
+}
+
+.survive-image {
+  margin-left: 5%;
+  padding-right: 20px;
+}
+
+.survive-image img {
+  width: 600px;
+}
+
+.survive-content {
+  margin-top: 60px;
+  margin-right: 5%;
+  padding-left: 20px;
+}
+
+.survive-content h1 {
+  font-size: 40px;
+  color: #e91e63;
+}
+
+.survive-content p {
+  color: gray;
+}
+
+.survive-content a {
+  text-decoration: none;
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+/* update section */
+
+.our-update {
+  margin-top: 200px;
+}
+
+.update-content {
+  text-align: center;
+}
+
+.update-content h1 {
+  color: #e91e63;
+  font-size: 35px;
+}
+
+.update-content p {
+  color: gray;
+}
+
+.subscribe {
+  background-color: bisque;
+  margin: 60px 20%;
+  padding: 60px 0;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.subscribe input {
+  background-color: lightcyan;
+  padding: 10px 40px;
+  border-radius: 8px;
+  border: 2px solid gray;
+  font-size: 20px;
+}
+
+.subscribe a {
+  text-decoration: none;
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+footer {
+  margin-top: 200px;
+  text-align: center;
+  background-color: rgb(255, 165, 179);
+  padding: 40px 0;
+}
+
+footer h1 {
+  color: rgb(255, 255, 175);
+  font-family: cursive;
+}
+
+footer p {
+  color: rgb(51, 51, 51);
+}
